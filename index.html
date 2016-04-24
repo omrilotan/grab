@@ -14,11 +14,14 @@
         <p>
             Let me just grab a <kbd>something</kbd> real quick...
         </p>
-<pre><code>git clone -b &lt;BRANCH_NAME> --single-branch https://github.com/omrilotan/grab.git ./
-rm -rf TEMP/.git
-mv TEMP/* ./
-rmdir TEMP</code></pre>
-        <h2>Available snippets</h2>
+        <h3>Bash:</h3>
+<pre><code>function grab() {
+  git clone -b $1 --single-branch https://github.com/omrilotan/grab.git TEMPREPO
+  rm -rf TEMPREPO/.git
+  mv TEMPREPO/* ./
+  rmdir TEMPREPO
+}</code></pre>
+        <h2>Available somethings</h2>
         <dl>
             <dt><a href="https://github.com/omrilotan/grab/tree/jserve">jserve</a></dt>
             <dd>Simple nodejs file server</dd>
