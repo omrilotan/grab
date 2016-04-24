@@ -20,7 +20,22 @@
   rm -rf TEMPREPO/.git
   mv TEMPREPO/* ./
   rmdir TEMPREPO
+}
+
+function grabs() {
+  COLLECTION=''
+  for var in "$@"; do
+    if [ -n "$COLLECTION" ]; then
+      COLLECTION="$COLLECTION && grab $var"
+    else
+      COLLECTION="grab $var"
+    fi
+  done
+  eval $COLLECTION
+  unset COLLECTION
 }</code></pre>
+        <h4>Example:</h4>
+        <code>grabs license html jserve</code>
         <h2>Available somethings</h2>
         <dl>
             <dt><a href="https://github.com/omrilotan/grab/tree/license">license</a></dt>
