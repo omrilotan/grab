@@ -2,7 +2,7 @@
 "Let me just grab a `something` real quick..."
 ## Bash function usage:
 ###### Grab a thing
-$`grab html`
+$`grab html` OR $`grabs html`
 ###### Grab a set:
 $`grabs license html css jserve`
 ## Available somethings:
