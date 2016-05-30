@@ -14,3 +14,4 @@ $`grab license html css serve`
 |html             |An empty HTML page
 |css              |CSS reset
 |tunnel           |Node js port tunnel
+|minify           |Node js minifier script
