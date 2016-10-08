@@ -16,3 +16,4 @@ $`grab license html css serve`
 |tunnel           |Node js port tunnel
 |minify           |Node js minifier script
 |ruby-benchmark   |Benchmark ruby code
+|gitignore        |Initial gitignore file
