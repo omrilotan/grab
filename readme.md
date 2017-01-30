@@ -5,7 +5,7 @@
 $`grab html`
 ###### Grab lots of things:
 $`grab license html css serve`
-## Available things:
+## Up for grabs:
 |Things (branches)|Description
 |-----------------|--------------------:
 |**master**       |Bash helper methods
@@ -17,3 +17,5 @@ $`grab license html css serve`
 |minify           |Node js minifier script
 |ruby-benchmark   |Benchmark ruby code
 |gitignore        |Initial gitignore file
+
+Use the [Shell function](./grab.sh)
